@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="../style/rpg_clicking.css">
+<head>
+</head>
+<body>
+    <section class="container">
+        <div class="click-rpg" style="flex-direction: row; gap:0">
+
+            <div id="sound" class="btn-container">
+
+                <button class="btn-sp">🏪</button>
+                <button class="btn-sp">🏆</button>
+                <button class="btn-sp">📇</button>
+                <button class="btn-sp">🗣️</button>
+                <audio id="audio" src="../audio/computer-mouse-click-352734.mp3"></audio>
+                <audio id="laugh_audio" src="../audio/hi-hi-hi-ha.mp3"></audio>
+
+            </div>
+
+            <div id="store" class="support-button">
+
+                <!-- <div id="purchase-items" class="tab-release">
+
+                    <div class="image-ex" style='background-image: url("../UI/1_gold-removebg-preview.png");'></div>
+                    <span id="money-total">0.99$</span>
+                    <button class="btn-purchase">Purchase</button>
+
+                </div>
+
+                <div id="purchase-items" class="tab-release">
+
+                    <div class="image-ex" style='background-image: url("../UI/Screenshot_2026-01-05_221120-removebg-preview.png");'></div>
+                    <span id="money-total">1.49$</span>
+                    <button class="btn-purchase">Purchase</button>
+
+                </div> -->
+
+
+            </div>
+
+        </div>
+
+        <div class="place-to-click">
+            <span class="score" id="score">$: 0</span>
+
+            <div class="click" id="button-click-place">
+                <button type="button" class="button-score"></button>
+            </div>
+
+            <div id="plus" class="score">+1</div>
+        </div>
+
+        <div class="click-rpg">
+            <div class="buy-click">
+                <div class="plus-more-click">
+                    <span id="lv" style="border-bottom: 4px solid black; width: 100%; text-align: center;">level 1</span>
+                    <span id="click_plus_lv">+1 click</span>
+                    <span id="money-cost">1$</span>
+                </div>
+                <button onclick="plusOneScore()" class="buy">Upg</button>
+            </div>
+
+            <div class="buy-click">
+                <div class="plus-more-click">
+                    <span id="lv-1" style="border-bottom: 4px solid black; width: 100%; text-align: center;">level 1</span>
+                    <span id="click_plus_lv">x1.2 click</span>
+                    <span id="money-cost-1">10$</span>
+                </div>
+                <button onclick="multiOneScore()" class="buy">Upg</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/12.6.5/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.6.5/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.6.5/firebase-auth-compat.js"></script>
+
+    <!--User-->
+
+
+    <!--JS-->
+    <script src="../script/rpg_clicking.js"></script>
+
+    <!--Function-->
+
+
+</body>
+</html>
+
+<script>
+
+</script>

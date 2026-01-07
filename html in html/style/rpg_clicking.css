@@ -1,0 +1,206 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container{
+    height: 98vh;
+    width: 98.5vw;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.place-to-click{
+    width: 50%;
+    height: 100%;
+    /* background-image: url("../Picture/4002cdb9dbc70bdeb304161e63a0bbe821feb5e1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    position: relative;
+}
+
+.score{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 30px;
+    color: black;
+}
+.click{
+    width: 100%;
+    height: 100%;
+}
+
+.button-score{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border:none;
+    cursor: pointer;
+}
+
+.click-rpg{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.buy-click{
+    width: 100%;
+    height: 20%;
+    border: 5px black solid;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.btn-container{
+
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.support-button{
+
+    width: 80%;
+    max-height: 100%;
+    background-image: url("../Picture/dark-wood-background-1920-x-1200-7iuvdbf2p8rgpuhx.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: space-between;
+
+}
+
+.tab-release{
+
+    width: 40%;
+    height: 25%;
+    background-color: #FFFF99;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr;
+    padding: 3%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.btn-purchase{
+
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #66FF00;
+    font-weight: bold;
+
+}
+
+.btn-purchase:hover{
+
+    background-color: #00CC00;
+    color: rgb(37, 37, 37);
+    opacity: 0.9;
+    scale: 1.1;
+}
+
+.image-ex{
+
+    background-size: cover;
+    background-position: -7.5px;
+
+}
+
+.btn-sp{
+
+    height: 15%;
+    width: 100%;
+    border-radius: 50% 0 0 50%;
+    border: none;
+    cursor: pointer;
+    background-image: url("../Picture/dark-wood-background-1920-x-1200-7iuvdbf2p8rgpuhx.jpg");
+    font-size: 50px;
+}
+
+.plus-more-click{
+    display:flex;
+    flex-direction: column;
+    justify-content:  space-evenly;
+    align-items: center;
+    font-size: 35px;
+    font-weight:bold;
+}
+
+.buy{
+    font-size: 35px;
+    background: none;
+    border-top:none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 5px solid black;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.buy:hover{
+    border: none;
+    scale: 1.1;
+    background-color: red;
+    border-radius: 20px;
+    transition: .2s linear;
+
+}
+
+/* +1 hiển thị tại click */
+#plus{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+@media (max-width: 1080px) {
+    .container{
+
+        flex-direction: column;
+        min-height: 300vh;
+        justify-content: start;
+        gap: 100px;
+        width: 100vw;
+
+    }
+
+    .click-rpg{
+
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .place-to-click{
+
+
+        width: 100%;
+        height: 50vh;
+    }
+
+    .buy-click{
+
+        height: 30%;
+
+    }
+}

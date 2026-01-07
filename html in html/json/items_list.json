@@ -1,0 +1,38 @@
+[
+
+    {
+
+        "background": "../UI/1_gold-removebg-preview.png",
+        "cost": 0.49
+
+    },
+
+    {
+
+        "background": "../UI/Screenshot_2026-01-05_221120-removebg-preview.png",
+        "cost": 1.49
+
+    },
+
+    {
+
+        "background": "../UI/Screenshot_2026-01-07_215416-removebg-preview.png",
+        "cost": 2.49
+
+    },
+
+    {
+
+        "background": "../UI/vang_4-removebg-preview.png",
+        "cost": 3.49
+
+    },
+
+    {
+
+        "background": "../UI/vang_5-removebg-preview.png",
+        "cost": 4.49
+
+    }
+
+]
